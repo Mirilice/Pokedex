@@ -1,0 +1,233 @@
+*{/*asterisco é mais amplo que o body*/
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*estilo mobile vai ser aplicado primeiro*/
+.pokemons{ /*.content*/
+   margin: 10px;
+}
+ul.pokemonsOl{/*ol.pokemons*/
+    display: grid;
+    gap: 14px;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 15px;
+}
+
+.red{
+    background-color:rgb(228, 201, 94); 
+    height: 144px;
+}
+.green{
+    background-color: #16a689;
+    height: 144px;
+ 
+}
+.blue{
+    background-color: rgb(94, 190, 228); 
+    height: 144px;
+  
+}
+p{
+    margin: 0;
+}
+
+.content{
+   color: aliceblue;
+    border-radius: 18px; 
+    padding: 11px;
+}
+.numero{
+    text-align: end;
+    color: black;
+    opacity: .29;
+    padding: 8px 14px;
+}
+.divPoke{
+    display: flex;
+    justify-content: space-around;  
+    height: 100px;
+    padding: 5px;
+}
+
+img{
+    padding-top: 19px;
+    margin-right: 10px;
+    width: 60px;
+}
+
+.poder{
+    text-align: center;
+    border-radius: 16px;
+    margin: 9px 10px -3px 0;
+    width: 61px;
+    height: 26px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+button{
+    border-radius: 16px;
+    height: 26px;
+  font-weight: 300;
+
+  background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    
+    border: 3px solid rgba( 255, 255, 255, 0.18 );
+   
+   width: 33%;
+   margin: 40px 19px;
+    padding: 2px 1px;
+   
+}
+.paginacao{
+    display: flex;
+    justify-content: center;
+}
+
+p.poder{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border: 3px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: 19px;
+    font-size: 14px;
+ 
+}
+div.content{
+    padding: 1px 0;
+    width: 167px;
+}
+.nome{
+    margin-left: 14px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+.grass{
+    background-color: #29d2b0;
+    height: 144px;
+ 
+}
+.ground{
+    background: rgb(196, 172, 12);
+}
+.poison{
+    background: rgb(64, 0, 255);
+}
+.fire{
+    background: rgb(255, 0, 0);
+}
+.water{
+    background: rgb(0, 145, 255);
+}
+.flying{
+    background-color: rgb(114, 145, 224);
+}
+.normal{
+    background-color: rgb(155, 153, 153); 
+}
+.bug{
+    background-color:#A6B91A;
+}
+.electric{
+   background-color:  #F7D02C;
+}
+
+.ice{
+    background-color:#96D9D6 ;
+}
+	.fighting{
+        background-color: #C22E28;
+    }
+
+	.psychic{
+        background-color: #F95587;
+    }
+	
+	.rock{
+       background-color:  #B6A136;
+    }
+	.ghost{
+       background-color : #735797;
+    }
+	.dragon{
+        background-color:#6F35FC ;
+    } 
+	.dark{
+        background-color: #705746;
+    } 
+	.steel{
+        background-color: #B7B7CE;
+    } 
+	.fairy{
+        background-color: #D685AD;
+    } 
+@media screen and (min-width:576px){
+    .pokemons{
+        max-width: 387px;
+        margin-left: 71px ;
+        margin-top: 45px;
+    }
+    div.content{
+        width: 200px;
+    }
+    .paginacao{
+        margin-left: 25px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px){
+    .pokemons{
+        max-width: 387px;
+        margin: auto;
+    }
+    .paginacao{
+        margin-left: 25px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:992px){
+    .pokemons{
+        max-width: 387px;
+        margin-left: 280px;
+        margin-top:72px;
+    }
+    .paginacao{
+        margin-left: 25px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:1200px){
+    .pokemons{
+        max-width: 387px;
+        margin-left: 365px;
+        margin-top:60px;
+    }
+    ul.pokemonsOl{
+        gap:30px
+    }
+    .paginacao{
+        margin-left: 25px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:1600px){
+    .pokemons{
+        max-width: 387px;
+        margin-left: 375px;
+        margin-top:60px;
+    }
+    div.content{
+        width: 300px;
+    }
+    .paginacao{
+        margin-left: 140px;
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,63 @@
+<div class="content blue">
+                <p class="numero ">#0002</p>
+                <!--class name-->
+                <div class="divPoke">
+                    <div class="poderes">
+                        <p class="nome">Azularr</p>
+                        <p class="poder water">water</p>
+                        <p class="poder fly">flying</p>
+                    </div>
+                    <img src="./assets/4z2d0268rm-1_cropped.png" alt="Azularr">
+                </div>
+            </div>
+            <div class="content green">
+                <p class="numero ">#0003</p>
+                <!--class name-->
+                <div class="divPoke">
+                    <div class="poderes">
+                        <p class="nome">Cururup
+                        </p>
+                        <p class="poder poison">poison</p>
+                        <p class="poder water">water</p>
+                    </div>
+                    <img src="./assets/h8gizvawy0-1_cropped.png" alt="Cururup">
+                </div>
+            </div>
+            <div class="content green">
+                <p class="numero">#0004</p>
+                <!--class name-->
+                <div class="divPoke">
+                    <div class="poderes">
+                        <p class="nome">Serpenscale</p>
+                        <p class="poder poison">poison</p>
+                        <p class="poder water">water</p>
+                    </div>
+                    <img src="./assets/ajmljfqzan-1_cropped.png" alt="Serpenscale">
+                </div>
+            </div>
+            <div class="content blue">
+                <p class="numero ">#0005</p>
+                <!--class name-->
+                <div class="divPoke">
+                    <div class="poderes">
+                        <p class="nome">Crocoshock</p>
+                        <p class="poder water">water</p>
+                        <p class="poder ground">ground</p>
+                    </div>
+                    <img src="./assets/guazhc9jfm-1_cropped.png" alt="Crocoshock">
+
+                </div>
+            </div>
+            <div class="content red">
+                <p class="numero">#0006</p>
+                <!--class name-->
+                <div class="divPoke">
+                    <div class="poderes">
+                        <p class="nome">Bugiongo
+                        </p>
+                        <p class="poder fire">fire</p>
+                        <p class="poder normal">normal</p>
+                    </div>
+                    <img src="./assets/skjdp5mily-1_cropped.png" alt="Bugiongo">
+                </div>
+            </div>
